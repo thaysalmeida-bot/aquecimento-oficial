@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Aquecimento Oficial — Empreende Brazil Conference 2026</title>
+  <meta name="description" content="Você está convocado para o Aquecimento Oficial. Um dia de preparação exclusivo para patrocinadores, expositores, membros do Club e parceiros antes do Conference. 29 de abril, Arena Opus.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://thaysalmeida-bot.github.io/aquecimento-oficial">
+
+  <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thaysalmeida-bot.github.io/aquecimento-oficial">
+  <meta property="og:title" content="Aquecimento Oficial — Empreende Brazil Conference 2026">
+  <meta property="og:description" content="Nenhuma seleção entra em campo sem antes aquecer. Você está convocado. 29 de abril, Arena Opus, Grande Florianópolis.">
+  <meta property="og:image" content="https://thaysalmeida-bot.github.io/aquecimento-oficial/og-aquecimento-oficial.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Empreende Brazil Conference">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aquecimento Oficial — Empreende Brazil Conference 2026">
+  <meta name="twitter:description" content="Nenhuma seleção entra em campo sem antes aquecer. Você está convocado. 29 de abril, Arena Opus.">
+  <meta name="twitter:image" content="https://thaysalmeida-bot.github.io/aquecimento-oficial/og-aquecimento-oficial.jpg">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- Fonts com fallback system -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── RESET & BASE ── */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --gold: #F5C842;
+      --gold-dim: rgba(245,200,66,0.45);
+      --bg: #0a1a0c;
+      --bg-mid: #0f2013;
+      --bg-dark: #070e08;
+      --white: #ffffff;
+      --font-display: 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
+      --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      --green-accent: #1D9E75;
+      --yellow-accent: #EF9F27;
+      --blue-accent: #378ADD;
+      --max-w: 680px;
+      --pad-x: 40px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      font-family: var(--font-body);
+      color: var(--white);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; }
+
+    /* ── WRAPPER ── */
+    .lp-wrapper {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      background: var(--bg);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--bg);
+      padding: 56px var(--pad-x) 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .field-bg {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      opacity: 0.055;
+    }
+
+    .hero-bg-number {
+      position: absolute;
+      right: -12px;
+      top: 40px;
+      font-family: var(--font-display);
+      font-size: clamp(120px, 28vw, 220px);
+      line-height: 1;
+      color: rgba(255,255,255,0.025);
+      letter-spacing: -0.02em;
+      user-select: none;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 1;
+    }
+    .logo-dot { width: 8px; height: 8px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .logo-text { font-size: 10px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.35); }
+
+    .convocacao-badge {
+      display: inline-block;
+      border: 1px solid var(--gold-dim);
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(60px, 13vw, 92px);
+      line-height: 0.9;
+      letter-spacing: 0.01em;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 4px;
+    }
+    .title-gold { color: var(--gold); display: block; }
+    .title-outline {
+      display: block;
+      -webkit-text-stroke: 1.5px rgba(255,255,255,0.2);
+      color: transparent;
+    }
+
+    .hero-divider {
+      width: 40px; height: 3px;
+      background: var(--gold);
+      margin: 24px 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-sub {
+      font-size: clamp(14px, 2.5vw, 16px);
+      color: rgba(255,255,255,0.55);
+      line-height: 1.75;
+      max-width: 420px;
+      font-weight: 300;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-sub strong { color: rgba(255,255,255,0.9); font-weight: 500; }
+
+    /* ── INFO STRIP ── */
+    .info-strip {
+      display: flex;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      margin: 0 var(--pad-x);
+    }
+    .info-item {
+      flex: 1;
+      padding: 18px 0 18px 16px;
+      border-right: 1px solid rgba(255,255,255,0.07);
+    }
+    .info-item:last-child { border-right: none; }
+    .info-label {
+      font-size: 9px; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.25); margin-bottom: 6px;
+    }
+    .info-value {
+      font-size: 13px; font-weight: 500;
+      color: rgba(255,255,255,0.85); line-height: 1.4;
+    }
+
+    /* ── COPY ── */
+    .copy-section { padding: 44px var(--pad-x) 36px; }
+    .copy-section p {
+      font-size: 15px; color: rgba(255,255,255,0.55);
+      line-height: 1.8; font-weight: 300; margin-bottom: 16px;
+    }
+    .copy-section p:last-child { margin-bottom: 0; }
+    .copy-section p strong { color: rgba(255,255,255,0.9); font-weight: 500; }
+
+    /* ── AGENDA ── */
+    .agenda-section {
+      background: var(--bg-mid);
+      border-top: 1px solid rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      padding: 36px var(--pad-x);
+    }
+    .section-label {
+      font-size: 9px; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: rgba(255,255,255,0.25); margin-bottom: 28px;
+    }
+
+    .agenda-item {
+      display: flex; gap: 18px; align-items: flex-start;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .agenda-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .agenda-time {
+      font-family: var(--font-display);
+      font-size: 18px; color: rgba(255,255,255,0.18);
+      letter-spacing: 0.04em; min-width: 56px;
+      line-height: 1.1; padding-top: 2px; flex-shrink: 0;
+    }
+    .agenda-bar {
+      width: 2px; align-self: stretch; flex-shrink: 0;
+      border-radius: 1px; background: rgba(255,255,255,0.07);
+    }
+    .agenda-bar.green { background: var(--green-accent); }
+    .agenda-bar.yellow { background: var(--yellow-accent); }
+    .agenda-bar.blue { background: var(--blue-accent); }
+
+    .agenda-body { flex: 1; min-width: 0; }
+    .agenda-name { font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.9); margin-bottom: 5px; }
+    .agenda-tag {
+      display: inline-block; font-size: 9px; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 2px 8px; border-radius: 2px; margin-bottom: 6px;
+    }
+    .tag-green { background: rgba(29,158,117,0.12); color: #5DCAA5; border: 1px solid rgba(29,158,117,0.25); }
+    .tag-yellow { background: rgba(239,159,39,0.12); color: #FAC775; border: 1px solid rgba(239,159,39,0.25); }
+    .tag-blue { background: rgba(55,138,221,0.12); color: #85B7EB; border: 1px solid rgba(55,138,221,0.25); }
+    .agenda-desc { font-size: 12px; color: rgba(255,255,255,0.3); line-height: 1.5; font-weight: 300; }
+
+    /* ── WORKSHOP BOX ── */
+    .workshop-box {
+      margin: 28px var(--pad-x);
+      border: 1px solid rgba(245,200,66,0.12);
+      border-left: 3px solid var(--gold);
+      background: linear-gradient(135deg, #142b18 0%, #0f2013 100%);
+      border-radius: 2px;
+      padding: 26px 28px;
+    }
+    .workshop-eyebrow {
+      font-size: 9px; font-weight: 500;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 10px;
+    }
+    .workshop-title {
+      font-family: var(--font-display);
+      font-size: 24px; color: var(--white);
+      letter-spacing: 0.04em; margin-bottom: 18px;
+    }
+    .workshop-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .workshop-list li {
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      font-weight: 300; padding-left: 18px;
+      position: relative; line-height: 1.5;
+    }
+    .workshop-list li::before {
+      content: '→'; position: absolute; left: 0;
+      color: var(--gold); font-size: 11px; top: 1px;
+    }
+
+    /* ── INFO CARDS ── */
+    .info-cards {
+      display: flex;
+      margin: 0 var(--pad-x) 32px;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .i-card {
+      flex: 1;
+      padding: 18px 16px;
+      border-right: 1px solid rgba(255,255,255,0.07);
+    }
+    .i-card:last-child { border-right: none; }
+    .i-card-label {
+      font-size: 9px; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.22); margin-bottom: 7px;
+    }
+    .i-card-value { font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.8); }
+    .i-card-sub { font-size: 11px; color: rgba(255,255,255,0.28); font-weight: 300; margin-top: 3px; }
+
+    /* ── CTA ── */
+    .cta-section { padding: 0 var(--pad-x) 56px; text-align: center; }
+    .cta-btn {
+      display: block;
+      background: var(--gold);
+      color: #0a1a0c;
+      text-decoration: none;
+      font-size: 12px; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 20px 0;
+      border-radius: 2px;
+      margin-bottom: 16px;
+      transition: opacity 0.2s ease, transform 0.15s ease;
+      cursor: pointer;
+      border: none;
+      width: 100%;
+    }
+    .cta-btn:hover { opacity: 0.92; transform: translateY(-1px); }
+    .cta-btn:active { transform: translateY(0); opacity: 1; }
+    .cta-note {
+      font-size: 11px; color: rgba(255,255,255,0.2);
+      line-height: 1.7; font-weight: 300;
+    }
+
+    /* ── FOOTER ── */
+    .lp-footer {
+      background: var(--bg-dark);
+      padding: 28px var(--pad-x);
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+    .footer-top {
+      display: flex; justify-content: space-between;
+      align-items: center; margin-bottom: 14px;
+      flex-wrap: wrap; gap: 8px;
+    }
+    .footer-brand {
+      font-size: 10px; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(255,255,255,0.2);
+    }
+    .footer-date { font-size: 10px; color: rgba(255,255,255,0.15); }
+    .footer-legal { font-size: 10px; color: rgba(255,255,255,0.12); line-height: 1.65; font-weight: 300; }
+
+    /* ══════════════════════════════════════
+       RESPONSIVE — MOBILE
+    ══════════════════════════════════════ */
+    @media (max-width: 540px) {
+      :root {
+        --pad-x: 20px;
+      }
+
+      /* Hero */
+      .hero { padding: 36px var(--pad-x) 28px; }
+      .hero-bg-number { font-size: 110px; right: -8px; top: 30px; }
+
+      /* Info strip: 2 columns */
+      .info-strip { margin: 0 var(--pad-x); flex-wrap: wrap; }
+      .info-item {
+        flex: 1 1 50%;
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+        padding: 14px 0 14px 12px;
+      }
+      .info-item:nth-child(odd) { border-right: 1px solid rgba(255,255,255,0.07); }
+      .info-item:nth-child(3),
+      .info-item:nth-child(4) { border-bottom: none; }
+
+      /* Copy */
+      .copy-section { padding: 32px var(--pad-x) 24px; }
+      .copy-section p { font-size: 14px; }
+
+      /* Agenda */
+      .agenda-section { padding: 28px var(--pad-x); }
+      .agenda-time { font-size: 15px; min-width: 46px; }
+
+      /* Workshop */
+      .workshop-box { margin: 20px var(--pad-x); padding: 20px 18px; }
+      .workshop-title { font-size: 20px; }
+
+      /* Info cards: stack */
+      .info-cards {
+        margin: 0 var(--pad-x) 24px;
+        flex-direction: column;
+      }
+      .i-card {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+        padding: 14px 16px;
+      }
+      .i-card:last-child { border-bottom: none; }
+
+      /* CTA */
+      .cta-section { padding: 0 var(--pad-x) 40px; }
+      .cta-btn { font-size: 11px; padding: 18px 0; }
+
+      /* Footer */
+      .lp-footer { padding: 24px var(--pad-x); }
+    }
+
+    @media (max-width: 360px) {
+      :root { --pad-x: 16px; }
+      .hero-title { font-size: 52px; }
+      .hero-bg-number { display: none; }
+      .agenda-time { min-width: 40px; font-size: 13px; }
+    }
+
+    /* ── PERFORMANCE: reduce motion ── */
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<main class="lp-wrapper" role="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Convocação">
+    <svg class="field-bg" viewBox="0 0 680 460" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="1" y="1" width="678" height="458" stroke="white" stroke-width="1.5"/>
+      <line x1="339" y1="1" x2="339" y2="459" stroke="white" stroke-width="1"/>
+      <circle cx="339" cy="230" r="72" stroke="white" stroke-width="1"/>
+      <circle cx="339" cy="230" r="4" fill="white"/>
+      <rect x="1" y="145" width="92" height="170" stroke="white" stroke-width="1"/>
+      <rect x="587" y="145" width="92" height="170" stroke="white" stroke-width="1"/>
+      <rect x="1" y="178" width="42" height="104" stroke="white" stroke-width="1"/>
+      <rect x="637" y="178" width="42" height="104" stroke="white" stroke-width="1"/>
+    </svg>
+    <div class="hero-bg-number" aria-hidden="true">29</div>
+
+    <div class="logo-row">
+      <div class="logo-dot" aria-hidden="true"></div>
+      <span class="logo-text">Empreende Brazil Conference 2026</span>
+    </div>
+
+    <div class="convocacao-badge" role="note">⚽ Convocação Oficial</div>
+
+    <h1 class="hero-title">
+      <span class="title-gold">Aquecimento</span>
+      <span class="title-outline">Oficial</span>
+    </h1>
+
+    <div class="hero-divider" aria-hidden="true"></div>
+
+    <p class="hero-sub">
+      Nenhuma seleção entra em campo sem antes aquecer.<br>
+      <strong>Você está convocado para o dia de preparação oficial.</strong>
+    </p>
+  </section>
+
+  <!-- INFO STRIP -->
+  <div class="info-strip" role="list" aria-label="Informações do evento">
+    <div class="info-item" role="listitem">
+      <div class="info-label">Data</div>
+      <div class="info-value">29 de abril<br>Quarta-feira</div>
+    </div>
+    <div class="info-item" role="listitem">
+      <div class="info-label">Local</div>
+      <div class="info-value">Arena Opus<br>Gde. Florianópolis</div>
+    </div>
+    <div class="info-item" role="listitem">
+      <div class="info-label">Horário</div>
+      <div class="info-value">A partir<br>das 13h00</div>
+    </div>
+    <div class="info-item" role="listitem">
+      <div class="info-label">Formato</div>
+      <div class="info-value">Presencial<br>+ Online</div>
+    </div>
+  </div>
+
+  <!-- COPY -->
+  <section class="copy-section" aria-label="Sobre o evento">
+    <p>O time Empreende Brazil convoca você para o <strong>Aquecimento Oficial</strong> — o encontro exclusivo para quem vai estar em campo no Conference.</p>
+    <p>Uma tarde de preparação intensa: você vai <strong>reconhecer o campo</strong> por dentro, executar o <strong>treino tático</strong> com as melhores estratégias para performar em eventos e entrar em <strong>concentração</strong> com os parceiros certos — antes mesmo do apito inicial.</p>
+    <p>Quem passa pelo Aquecimento Oficial chega ao Conference com estratégia definida, time alinhado e as primeiras jogadas de negócio já em andamento.</p>
+  </section>
+
+  <!-- AGENDA -->
+  <section class="agenda-section" aria-label="Programação">
+    <div class="section-label">Programação do dia</div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="13 horas">13H</div>
+      <div class="agenda-bar" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Recepção</div>
+        <div class="agenda-desc">Chegada, credenciamento e networking informal</div>
+      </div>
+    </div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="13 horas e 30 minutos">13H30</div>
+      <div class="agenda-bar green" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Reconhecimento de campo</div>
+        <div class="agenda-tag tag-green">Visita técnica</div>
+        <div class="agenda-desc">Tour pelo espaço — conheça o campo onde vai jogar e planeje a estratégia de posicionamento do seu stand</div>
+      </div>
+    </div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="14 horas e 30 minutos">14H30</div>
+      <div class="agenda-bar yellow" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Treino tático</div>
+        <div class="agenda-tag tag-yellow">Workshop</div>
+        <div class="agenda-desc">Como performar mais em eventos — estratégias de venda, organização de time e boas práticas para o melhor resultado</div>
+      </div>
+    </div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="16 horas e 30 minutos">16H30</div>
+      <div class="agenda-bar" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Coffee break</div>
+        <div class="agenda-desc">Pausa e networking dirigido</div>
+      </div>
+    </div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="16 horas e 50 minutos">16H50</div>
+      <div class="agenda-bar blue" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Concentração</div>
+        <div class="agenda-tag tag-blue">Rodada de negócios</div>
+        <div class="agenda-desc">Sessão exclusiva entre patrocinadores e expositores — as primeiras jogadas antes do Conference</div>
+      </div>
+    </div>
+
+    <div class="agenda-item">
+      <div class="agenda-time" aria-label="17 horas e 50 minutos">17H50</div>
+      <div class="agenda-bar" aria-hidden="true"></div>
+      <div class="agenda-body">
+        <div class="agenda-name">Encerramento</div>
+        <div class="agenda-desc">Próximos passos e orientações finais para o Conference</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKSHOP BOX -->
+  <div class="workshop-box" role="complementary" aria-label="Conteúdo do workshop">
+    <div class="workshop-eyebrow">No treino tático, seu time vai aprender</div>
+    <div class="workshop-title">Como performar mais em eventos</div>
+    <ul class="workshop-list">
+      <li>Estratégias para vender em eventos de grande porte</li>
+      <li>Como organizar o time para performar melhor na feira de negócios</li>
+      <li>O processo completo para vender a partir de stands</li>
+      <li>Boas práticas para extrair o melhor resultado do Conference</li>
+    </ul>
+  </div>
+
+  <!-- INFO CARDS -->
+  <div class="info-cards" role="list" aria-label="Informações de vagas">
+    <div class="i-card" role="listitem">
+      <div class="i-card-label">Visita técnica</div>
+      <div class="i-card-value">Até 3 pessoas</div>
+      <div class="i-card-sub">por empresa</div>
+    </div>
+    <div class="i-card" role="listitem">
+      <div class="i-card-label">Workshop</div>
+      <div class="i-card-value">+ 3 extras</div>
+      <div class="i-card-sub">além da visita técnica</div>
+    </div>
+    <div class="i-card" role="listitem">
+      <div class="i-card-label">Outros estados</div>
+      <div class="i-card-value">Acesso online</div>
+      <div class="i-card-sub">disponível no dia</div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <a href="https://forms.gle/cjpVuYQ6kiks52Ad7" class="cta-btn" role="button" aria-label="Confirmar presença no Aquecimento Oficial" target="_blank" rel="noopener noreferrer">
+      Confirmar presença — garantir vaga em campo
+    </a>
+    <p class="cta-note">
+      Presença especialmente recomendada para quem está na Grande Florianópolis.<br>
+      Conhecer o espaço de perto faz toda a diferença na estratégia do seu time.
+    </p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="lp-footer">
+    <div class="footer-top">
+      <span class="footer-brand">Empreende Brazil Conference</span>
+      <span class="footer-date">29 Abr · Arena Opus · Florianópolis</span>
+    </div>
+    <p class="footer-legal">
+      Você está recebendo esta comunicação por ser patrocinador, expositor, membro do Club ou parceiro do Empreende Brazil Conference 2026. Para deixar de receber nossas comunicações, entre em contato conosco.
+    </p>
+  </footer>
+
+</main>
+
+<!-- Schema.org estruturado para SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Aquecimento Oficial — Empreende Brazil Conference 2026",
+  "description": "Encontro exclusivo de preparação para patrocinadores, expositores, membros do Club e parceiros do Empreende Brazil Conference. Visita técnica, workshop e rodada de negócios.",
+  "startDate": "2026-04-29T13:00:00-03:00",
+  "endDate": "2026-04-29T18:00:00-03:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "Arena Opus",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Florianópolis",
+      "addressRegion": "SC",
+      "addressCountry": "BR"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Empreende Brazil Conference"
+  }
+}
+</script>
+
+</body>
+</html>
